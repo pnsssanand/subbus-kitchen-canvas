@@ -1,6 +1,7 @@
 
 import { useState, FormEvent, ChangeEvent } from 'react';
-import { useAuth, useMenuItems, MenuItem } from '../firebase/hooks';
+import { useAuth, useMenuItems } from '../firebase/hooks';
+import { MenuItem } from '../types/menu';
 import { toast } from 'sonner';
 
 const AdminDashboard = () => {
