@@ -1,5 +1,5 @@
 
-import { Facebook, Instagram, Phone } from 'lucide-react';
+import { MapPin, Clock, Phone, Facebook, Instagram, Twitter } from '../components/ui/icons';
 import { Link } from 'react-router-dom';
 
 const Footer = () => {

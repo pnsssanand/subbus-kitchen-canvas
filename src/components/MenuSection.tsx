@@ -1,7 +1,8 @@
 
 import { useEffect, useState } from 'react';
 import MenuItem from './MenuItem';
-import { MenuItem as MenuItemType, useMenuItems } from '../firebase/hooks';
+import { MenuItem as MenuItemType } from '../types/menu';
+import { useMenuItems } from '../firebase/hooks';
 
 const MenuSection = () => {
   const { menuItems, loading } = useMenuItems();
@@ -38,13 +39,13 @@ const MenuSection = () => {
   };
 
   // For demo data in case Firebase data isn't loaded yet
-  const demoItems = [
-    { id: '1', name: 'Chicken Fry Pulao', price: 120, category: 'Pulao', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9' },
-    { id: '2', name: 'Mutton Fry Pulao', price: 250, category: 'Pulao', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9' },
-    { id: '3', name: 'Chilli Chicken', price: 120, category: 'Non-Veg Starters', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9' },
-    { id: '4', name: 'Chicken 65', price: 120, category: 'Non-Veg Starters', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9' },
-    { id: '5', name: 'Mixed Pulao', price: 260, category: 'Pulao', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9' },
-    { id: '6', name: 'Dragon Chicken', price: 120, category: 'Non-Veg Starters', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9' },
+  const demoItems: MenuItemType[] = [
+    { id: '1', name: 'Chicken Fry Pulao', price: 120, category: 'Pulao', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9', description: 'Delicious chicken pulao', isSpecial: false },
+    { id: '2', name: 'Mutton Fry Pulao', price: 250, category: 'Pulao', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9', description: 'Tender mutton pulao', isSpecial: false },
+    { id: '3', name: 'Chilli Chicken', price: 120, category: 'Non-Veg Starters', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9', description: 'Spicy chilli chicken', isSpecial: false },
+    { id: '4', name: 'Chicken 65', price: 120, category: 'Non-Veg Starters', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9', description: 'Classic chicken 65', isSpecial: false },
+    { id: '5', name: 'Mixed Pulao', price: 260, category: 'Pulao', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9', description: 'Mixed meat pulao', isSpecial: false },
+    { id: '6', name: 'Dragon Chicken', price: 120, category: 'Non-Veg Starters', imageUrl: 'https://images.unsplash.com/photo-1618160702438-9b02ab6515c9', description: 'Fiery dragon chicken', isSpecial: false },
   ];
 
   const displayItems = loading || filteredItems.length === 0 ? demoItems : filteredItems;
