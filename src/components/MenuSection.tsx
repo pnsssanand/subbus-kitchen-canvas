@@ -20,17 +20,17 @@ const MenuSection = () => {
       if (activeCategory === 'all' && uniqueCategories.length > 0) {
         setActiveCategory(uniqueCategories[0]);
         const initialFilteredItems = menuItems.filter(item => item.category === uniqueCategories[0]);
-        setFilteredItems(initialFilteredItems);
+        setFilteredItems(initialFilteredItems as MenuItemType[]);
       }
     }
   }, [menuItems]);
 
   useEffect(() => {
     if (activeCategory === 'all') {
-      setFilteredItems(menuItems);
+      setFilteredItems(menuItems as MenuItemType[]);
     } else {
       const filtered = menuItems.filter(item => item.category === activeCategory);
-      setFilteredItems(filtered);
+      setFilteredItems(filtered as MenuItemType[]);
     }
   }, [activeCategory, menuItems]);
 

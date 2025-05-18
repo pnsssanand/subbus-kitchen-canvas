@@ -4,7 +4,7 @@ export interface MenuItem {
   name: string;
   price: number;
   category: string;
-  imageUrl: string;
+  imageUrl?: string;  // Made optional with '?'
   description?: string;
   isSpecial?: boolean;
 }

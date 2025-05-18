@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { 
   collection, 
@@ -18,17 +17,7 @@ import {
 } from 'firebase/auth';
 import { db, auth } from './config';
 import { toast } from "sonner";
-
-// Types
-export interface MenuItem {
-  id: string;
-  name: string;
-  price: number;
-  category: string;
-  description?: string;
-  imageUrl?: string;
-  isSpecial?: boolean;
-}
+import { MenuItem } from '../types/menu';
 
 // Authentication hooks
 export const useAuth = () => {
