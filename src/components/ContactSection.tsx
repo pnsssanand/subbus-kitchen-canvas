@@ -5,7 +5,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="section-padding bg-restaurant-dark">
       <div className="container-custom">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">  
           {/* Information side */}
           <div className="animate-fade-in">
             <h2 className="section-title">Contact <span className="text-restaurant-yellow">Us</span></h2>
