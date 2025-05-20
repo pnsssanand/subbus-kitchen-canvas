@@ -21,7 +21,7 @@ const ContactSection = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Call Us</h3>
                   <a href="tel:9160155777" className="text-lg text-restaurant-yellow hover:underline">
-                    91601 55777
+                    +919160155777
                   </a>
                 </div>
               </div>
@@ -33,7 +33,7 @@ const ContactSection = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Visit Us</h3>
                   <p className="text-lg text-gray-300">
-                    Sports Complex, RTO Office Road, Kakinada
+                    vanga geetha apartment, NFCL Rd, opposite stadium complex, Krishna Nagar, Ramanayapeta, Kakinada, Andhra Pradesh 533005
                   </p>
                 </div>
               </div>
@@ -71,7 +71,7 @@ const ContactSection = () => {
               {/* We'll embed a real map here - using a placeholder for now */}
               <iframe
                 title="Subbu's Kitchen Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30667.618641601105!2d82.2189588!3d16.9686901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a37a3ae60ca0e2b%3A0xb6f6ff97510704b5!2sKakinada%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1716090394806!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.854579988978!2d82.24651237492503!3d16.98170188383791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829568a792d93%3A0x344e9f5c563f7732!2sSubbu%E2%80%99s%20kitchen!5e0!3m2!1sen!2sin!4v1747753835100!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
