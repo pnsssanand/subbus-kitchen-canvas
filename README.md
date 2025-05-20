@@ -1,22 +1,16 @@
-# Welcome to your Lovable project
+# Subbu's Kitchen Website
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/9e67dbd5-7f8c-4c38-9c9b-8e21016ec678
+A restaurant website showcasing Subbu's Kitchen menu and services.
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/9e67dbd5-7f8c-4c38-9c9b-8e21016ec678) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
 **Use your preferred IDE**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+If you want to work locally using your own IDE, you can clone this repo and push changes.
 
 The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
@@ -60,14 +54,14 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/9e67dbd5-7f8c-4c38-9c9b-8e21016ec678) and click on Share -> Publish.
+Contact the Dream Team Services for deployment instructions.
 
-## Can I connect a custom domain to my Lovable project?
+## Custom Domain Configuration
 
-Yes, you can!
+To set up a custom domain, please contact Dream Team Services technical support.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Developed By
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+This project was designed and developed by [Dream Team Services](https://www.thedreamteamservices.com/).

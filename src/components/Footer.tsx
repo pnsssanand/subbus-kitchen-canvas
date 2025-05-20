@@ -1,4 +1,3 @@
-
 import { MapPin, Clock, Phone, Facebook, Instagram, Twitter } from '../components/ui/icons';
 import { Link } from 'react-router-dom';
 
@@ -92,6 +91,9 @@ const Footer = () => {
         <div className="border-t border-gray-800 pt-6 text-center">
           <p className="text-gray-500">
             &copy; {currentYear} Subbu's Kitchen. All rights reserved.
+          </p>
+          <p className="text-gray-500 mt-2">
+            Designed and developed by <a href="https://www.thedreamteamservices.com/" target="_blank" rel="noopener noreferrer" className="text-restaurant-yellow hover:underline">Dream Team Services</a>
           </p>
         </div>
       </div>
