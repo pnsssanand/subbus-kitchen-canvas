@@ -107,7 +107,7 @@ const AdminDashboard = () => {
     const file = e.target.files[0];
     const formData = new FormData();
     formData.append('file', file);
-    formData.append('upload_preset', 'subu kitchen');
+    formData.append('upload_preset', 'subu foods');
     
     setFormLoading(true);
     toast.info('Uploading image...');
@@ -138,7 +138,7 @@ const AdminDashboard = () => {
       <header className="bg-restaurant-dark shadow-lg py-4">
         <div className="container-custom flex justify-between items-center">
           <h1 className="text-xl md:text-2xl font-bold">
-            <span className="text-restaurant-yellow">Subbu's Kitchen</span> Admin
+            <span className="text-restaurant-yellow">gemini's foods</span> Admin
           </h1>
           <div className="flex items-center gap-4">
             <span className="hidden md:inline text-gray-400">

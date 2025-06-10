@@ -78,7 +78,7 @@ const Hero = () => {
       {/* Content overlay */}
       <div className="relative h-full flex items-center justify-center text-white px-4 z-10">
         <div className="text-center reveal max-w-3xl">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6">Subbu's Kitchen</h1>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6">gemini's foods</h1>
           <p className="text-xl md:text-2xl mb-8 text-gray-100">
             Exquisite Non-Veg Starters & Authentic Pulao in Kakinada
           </p>
@@ -88,7 +88,7 @@ const Hero = () => {
             </a>
             <a href="tel:9160155777" className="btn-outline flex items-center gap-2">
               <Phone size={18} />
-              <span>91601 55777</span>
+              <span>9885321957</span>
             </a>
           </div>
         </div>

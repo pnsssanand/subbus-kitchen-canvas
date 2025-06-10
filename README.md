@@ -1,8 +1,8 @@
-# Subbu's Kitchen Website
+# gemini's foods Website
 
 ## Project info
 
-A restaurant website showcasing Subbu's Kitchen menu and services.
+A restaurant website showcasing gemini's foods menu and services.
 
 ## How can I edit this code?
 

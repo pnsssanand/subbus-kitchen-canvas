@@ -6,9 +6,9 @@ import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCrXa_4jlFiiyIQVGZp9GbXiG8i739fvuA",
-  authDomain: "subu-kitchen.firebaseapp.com",
-  projectId: "subu-kitchen",
-  storageBucket: "subu-kitchen.firebasestorage.app",
+  authDomain: "subu-foods.firebaseapp.com",
+  projectId: "subu-foods",
+  storageBucket: "subu-foods.firebasestorage.app",
   messagingSenderId: "583660714878",
   appId: "1:583660714878:web:367a96b28fd9897bbf512f",
   measurementId: "G-7HYJB37LX5"

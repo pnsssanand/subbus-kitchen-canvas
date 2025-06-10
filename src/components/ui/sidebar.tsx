@@ -703,7 +703,7 @@ const SidebarMenuSubItem = React.forwardRef<
 >(({ ...props }, ref) => <li ref={ref} {...props} />)
 SidebarMenuSubItem.displayName = "SidebarMenuSubItem"
 
-const SidebarMenuSubButton = React.forwardRef<
+const SidebarMenugeminitton = React.forwardRef<
   HTMLAnchorElement,
   React.ComponentProps<"a"> & {
     asChild?: boolean
@@ -731,7 +731,7 @@ const SidebarMenuSubButton = React.forwardRef<
     />
   )
 })
-SidebarMenuSubButton.displayName = "SidebarMenuSubButton"
+SidebarMenugeminitton.displayName = "SidebarMenugeminitton"
 
 export {
   Sidebar,
@@ -751,7 +751,7 @@ export {
   SidebarMenuItem,
   SidebarMenuSkeleton,
   SidebarMenuSub,
-  SidebarMenuSubButton,
+  SidebarMenugeminitton,
   SidebarMenuSubItem,
   SidebarProvider,
   SidebarRail,

@@ -12,7 +12,7 @@ const Footer = () => {
           <div>
             <Link to="/" className="inline-block mb-4">
               <h3 className="text-2xl font-bold">
-                <span className="text-restaurant-yellow">Subbu's</span> Kitchen
+                <span className="text-restaurant-yellow">gemini's</span> foods
               </h3>
             </Link>
             <p className="text-gray-400 mb-6">
@@ -71,7 +71,7 @@ const Footer = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-restaurant-yellow" />
-                <a href="tel:9160155777" className="text-gray-400 hover:text-restaurant-yellow transition-colors">91601 55777</a>
+                <a href="tel:9160155777" className="text-gray-400 hover:text-restaurant-yellow transition-colors">9885321957</a>
               </li>
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-restaurant-yellow flex-shrink-0 mt-1" />
@@ -90,7 +90,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-800 pt-6 text-center">
           <p className="text-gray-500">
-            &copy; {currentYear} Subbu's Kitchen. All rights reserved.
+            &copy; {currentYear} gemini's foods. All rights reserved.
           </p>
           <p className="text-gray-500 mt-2">
             Designed and developed by <a href="https://www.thedreamteamservices.com/" target="_blank" rel="noopener noreferrer" className="text-restaurant-yellow hover:underline">Dream Team Services</a>

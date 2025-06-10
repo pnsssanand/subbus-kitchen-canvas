@@ -10,7 +10,7 @@ const Admin = () => {
 
   // Update page metadata
   useEffect(() => {
-    document.title = "Admin Dashboard | Subbu's Kitchen";
+    document.title = "Admin Dashboard | gemini's foods";
   }, []);
 
   if (loading) {

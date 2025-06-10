@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Phone } from 'lucide-react';
@@ -38,19 +37,19 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center">
           <span className="text-2xl font-bold">
-            <span className="text-restaurant-yellow">Subbu's</span> Kitchen
+            <span className="text-restaurant-yellow">gemini's</span> foods
           </span>
         </Link>
 
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
           <a href="#menu" className="nav-link">Menu</a>
+          <a href="#tiffins" className="nav-link">Tiffins</a>
           <a href="#special" className="nav-link">Today's Special</a>
-          <a href="#location" className="nav-link">Location</a>
           <a href="#contact" className="nav-link">Contact</a>
           <a href="tel:9160155777" className="flex items-center gap-2 btn-primary">
             <Phone size={18} />
-            <span>91601 55777</span>
+            <span>9885321957</span>
           </a>
         </div>
 
@@ -72,12 +71,12 @@ const Navbar = () => {
       }`}>
         <div className="container-custom py-4 flex flex-col gap-4">
           <a href="#menu" className="nav-link py-2" onClick={() => setMobileMenuOpen(false)}>Menu</a>
+          <a href="#tiffins" className="nav-link py-2" onClick={() => setMobileMenuOpen(false)}>Tiffins</a>
           <a href="#special" className="nav-link py-2" onClick={() => setMobileMenuOpen(false)}>Today's Special</a>
-          <a href="#location" className="nav-link py-2" onClick={() => setMobileMenuOpen(false)}>Location</a>
           <a href="#contact" className="nav-link py-2" onClick={() => setMobileMenuOpen(false)}>Contact</a>
           <a href="tel:9160155777" className="flex items-center gap-2 btn-primary justify-center">
             <Phone size={18} />
-            <span>91601 55777</span>
+            <span>9885321957</span>
           </a>
         </div>
       </div>

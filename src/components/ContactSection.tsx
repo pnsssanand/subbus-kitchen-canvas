@@ -1,4 +1,3 @@
-
 import { Phone, MapPin, Clock } from 'lucide-react';
 
 const ContactSection = () => {
@@ -33,7 +32,7 @@ const ContactSection = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Visit Us</h3>
                   <p className="text-lg text-gray-300">
-                    vanga geetha apartment, NFCL Rd, opposite stadium complex, Krishna Nagar, Ramanayapeta, Kakinada, Andhra Pradesh 533005
+                    anna canteen opposite, salipeta 
                   </p>
                 </div>
               </div>
@@ -45,7 +44,7 @@ const ContactSection = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-1">Opening Hours</h3>
                   <p className="text-lg text-gray-300">
-                    11:00 AM - 11:00 PM<br />
+                    05:00 AM - 11:00 PM<br />
                     <span className="text-sm text-gray-400">Open 7 days a week</span>
                   </p>
                 </div>
@@ -68,14 +67,14 @@ const ContactSection = () => {
           {/* Map side */}
           <div className="h-[400px] lg:h-auto animate-fade-in-right">
             <div className="bg-restaurant-gray w-full h-full rounded-lg overflow-hidden shadow-lg">
-              {/* We'll embed a real map here - using a placeholder for now */}
+              {/* Google Maps embed */}
               <iframe
                 title="Subbu's Kitchen Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3815.854579988978!2d82.24651237492503!3d16.98170188383791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829568a792d93%3A0x344e9f5c563f7732!2sSubbu%E2%80%99s%20kitchen!5e0!3m2!1sen!2sin!4v1747753835100!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3816.2988574903206!2d82.23150557437876!3d16.959843714982608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3829de87044203%3A0x9fb6d7370920e536!2sJEMINI%20TIFFIN!5e0!3m2!1sen!2snl!4v1749565083566!5m2!1sen!2snl"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen={false}
+                allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
